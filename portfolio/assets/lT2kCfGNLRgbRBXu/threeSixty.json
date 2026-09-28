@@ -1,0 +1,62 @@
+{
+  "version": "3.94.33511.0",
+  "course_id": "5oxZnIsJvhl",
+  "title": "MC-Storyline-step-by-step-cbt-portion-3",
+  "thumbnail": "story_content/thumbnail.jpg",
+  "scenes": [
+    {
+      "title": "Untitled Scene"
+    }
+  ],
+  "slides": [
+    {
+      "id": "6VEYJttyLaX",
+      "title": "base patient-",
+      "scene_index": "1.1"
+    },
+    {
+      "id": "6Dn0TEBBs08",
+      "title": "base patient-",
+      "scene_index": "1.2"
+    },
+    {
+      "id": "6AukKJJF260",
+      "title": "base patient-",
+      "scene_index": "1.3"
+    },
+    {
+      "id": "69rIiE2BOpQ",
+      "title": "base patient-",
+      "scene_index": "1.4"
+    },
+    {
+      "id": "6UNNDzM4CBI",
+      "title": "base patient-",
+      "scene_index": "1.5"
+    },
+    {
+      "id": "6CCHdALhM4Y",
+      "title": "base patient-",
+      "scene_index": "1.6"
+    },
+    {
+      "id": "6LYZB7u4lvI",
+      "title": "base patient-",
+      "scene_index": "1.7"
+    },
+    {
+      "id": "5Umd8mzJxk8",
+      "title": "base patient-",
+      "scene_index": "1.8"
+    }
+  ],
+  "player": {
+    "name": "unified",
+    "width": 980,
+    "height": 611
+  },
+  "stage": {
+    "width": 960,
+    "height": 540
+  }
+}
