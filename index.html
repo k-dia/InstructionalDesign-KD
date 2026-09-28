@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Instructional Design KD</title>
+<style>
+  body { margin:0; font-family:Arial, sans-serif; background:#f4f6f9; color:#222; }
+  header { background:#1f3b64; color:#fff; text-align:center; padding:40px 20px; }
+  .welcome { max-width:700px; margin:30px auto 0; padding:0 20px; text-align:center; line-height:1.6; }
+  .grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+          gap:20px; max-width:700px; margin:30px auto; padding:0 20px; }
+  .card { background:#fff; border-radius:10px; padding:40px 20px; text-align:center;
+          font-size:1.2rem; font-weight:bold; cursor:pointer;
+          box-shadow:0 2px 8px rgba(0,0,0,.1); transition:transform .2s; }
+  .card:hover { transform:translateY(-5px); background:#e8eef8; }
+  #viewer { display:none; position:fixed; inset:0; background:#fff; }
+  #viewer button { position:absolute; top:10px; left:10px; z-index:2; padding:8px 16px;
+                   background:#1f3b64; color:#fff; border:none; border-radius:5px; cursor:pointer; }
+  #viewer iframe { width:100%; height:100%; border:none; }
+</style>
+</head>
+<body>
+<header><h1>Instructional Design KD</h1></header>
+
+<div class="welcome">
+  <h2>Welcome!</h2>
+  <p>Thank you for visiting. Here you'll find my instructional design portfolio and a sample computer-based training. Select an option below to get started.</p>
+</div>
+
+<div class="grid">
+  <div class="card" onclick="openCourse('portfolio/index.html')">Instructional Design Portfolio 2026</div>
+  <div class="card" onclick="openCourse('particulate/index.html')">Particulate Matter and Patient Safety CBT</div>
+</div>
+
+<div id="viewer">
+  <button onclick="closeCourse()">← Back</button>
+  <iframe id="frame" allowfullscreen></iframe>
+</div>
+
+<script>
+  function openCourse(url){ frame.src=url; viewer.style.display='block'; }
+  function closeCourse(){ viewer.style.display='none'; frame.src=''; }
+</script>
+</body>
+</html>
