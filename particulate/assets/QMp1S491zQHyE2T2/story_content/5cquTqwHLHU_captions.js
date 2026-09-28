@@ -1,0 +1,1 @@
+window.globalProvideData('caption', '{"data":"WEBVTT%0D%0AKind:%20captions%0D%0ASource:%20Articulate%20Closed%20Captions%20Editor%0D%0ASource%20Version:%203.94.33511.0%0D%0A%0D%0A00:00:00.075%20--%3E%2000:00:03.176%0D%0A...Click%20on%20the%20button%20to%20see%20an%20Embolism%20from%20a%20plastic%20particle.%0D%0A%0D%0A"}')

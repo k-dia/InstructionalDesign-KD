@@ -1,0 +1,57 @@
+{
+  "version": "3.94.33511.0",
+  "course_id": "6mWtPdnMcNi",
+  "title": "patient-lung-interactive segment",
+  "thumbnail": "story_content/thumbnail.jpg",
+  "scenes": [
+    {
+      "title": "Untitled Scene"
+    }
+  ],
+  "slides": [
+    {
+      "id": "5Ysv4NcdANn",
+      "title": "base patient-",
+      "scene_index": "1.1"
+    },
+    {
+      "id": "6lATkyJZ8fX",
+      "title": "base patient-",
+      "scene_index": "1.2"
+    },
+    {
+      "id": "6OTQgkZyANq",
+      "title": "base patient-",
+      "scene_index": "1.3"
+    },
+    {
+      "id": "5vRw7qGK2ey",
+      "title": "base patient-",
+      "scene_index": "1.4"
+    },
+    {
+      "id": "6jJhjVPPfmN",
+      "title": "base patient-",
+      "scene_index": "1.5"
+    },
+    {
+      "id": "6UqEIw6YhU0",
+      "title": "base patient-",
+      "scene_index": "1.6"
+    },
+    {
+      "id": "5xvZOgj2HsH",
+      "title": "base patient-",
+      "scene_index": "1.7"
+    }
+  ],
+  "player": {
+    "name": "unified",
+    "width": 980,
+    "height": 611
+  },
+  "stage": {
+    "width": 960,
+    "height": 540
+  }
+}
